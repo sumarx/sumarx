@@ -1,9 +1,9 @@
 class OrderController < ApplicationController
   def index
-    @orders = Order.all
+    @orders = Order.includes(:customer, :items).all
     @orders.each do |order|
-      puts order.customer.name        # N+1 query
-      puts order.items.map(&:price)   # Another N+1
+      puts order.customer.name
+      puts order.items.map(&:price)
     end
   end
 
