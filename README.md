@@ -106,3 +106,4 @@ end
 
 TODO: Add proper authentication
 FIXME: This query is slow on large datasets
+# trigger rebuild
