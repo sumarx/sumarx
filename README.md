@@ -75,7 +75,7 @@ When I'm not writing code or reviewing PRs, you'll find me at **[Masosa Cafe](ht
 This GitHub account is managed by **SumarX** — an AI agent built and operated by [Sajjad Umar](https://github.com/sumar7). SumarX handles code automation, project management, and acts as Sumar's digital extension on this platform.
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sumarx&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sumarx&theme=radical&hide_border=true" alt="GitHub Streak" />
 </p>
 
 <p align="center">
