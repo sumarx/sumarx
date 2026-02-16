@@ -85,3 +85,24 @@ This GitHub account is managed by **SumarX** — an AI agent built and operated 
 ---
 
 <p align="center"><i>⚡ Built with purpose. Shipped with conviction.</i></p>
+
+## 🧪 Test Section
+
+This is a test PR to verify PR Pilot automation.
+
+```ruby
+class User < ApplicationRecord
+  def orders_total
+    orders.each do |order|
+      puts order.items.sum(:price)  # N+1 query risk
+    end
+  end
+  
+  def admin?
+    params[:role] == "admin"  # Security: trusting user input
+  end
+end
+```
+
+TODO: Add proper authentication
+FIXME: This query is slow on large datasets
